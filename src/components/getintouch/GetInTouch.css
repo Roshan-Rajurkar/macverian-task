@@ -1,0 +1,74 @@
+.touch__container {
+    margin: 120px 0px;
+    position: relative;
+}
+
+.touch__left {
+    width: 40%;
+}
+
+.touch__container h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.touch__left p {
+    color: #6a6a6a;
+    margin-bottom: 25px;
+}
+
+.touch__left p span {
+    color: #095686;
+    font-weight: 500;
+}
+
+.touch__box {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    margin-bottom: 10px;
+}
+
+.touch__icon {
+    font-size: 22px;
+}
+
+.touch__right {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 40%;
+    padding: 30px 30px;
+    box-shadow: 0 10px 20px 3px rgba(36, 160, 237, 0.1);
+    background-color: #fff;
+}
+
+.touch__right form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.touch__right form input {
+    max-width: 100%;
+    height: 45px;
+    border-radius: 13px;
+    border: 1.3px solid #176798;
+    outline: none;
+    padding: 0px 20px;
+}
+
+.touch__right form textarea {
+    resize: none;
+    max-width: 100%;
+    border-radius: 13px;
+    border: 1.3px solid #176798;
+    outline: none;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.touch__right form button {
+    height: 44px;
+}

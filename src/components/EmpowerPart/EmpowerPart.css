@@ -1,0 +1,56 @@
+.empower__container {
+    margin-top: 100px;
+    background-color: #24a0ed;
+    padding: 70px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.trans {
+    padding: 10px 40px;
+    background-color: #ffffff;
+    color: #24a0ed;
+    border: 1px solid transparent;
+    border-radius: 18px;
+}
+
+.evolved {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #24a0ed;
+    border: 1px solid transparent;
+    border-radius: 18px;
+}
+
+.trans:hover {
+    background-color: #24a0ed;
+    color: #fff;
+    border-color: white;
+}
+
+.evolved {
+    background-color: transparent;
+    border-color: #fff;
+    color: white;
+}
+
+.evolved:hover {
+    background-color: #fff;
+    color: #24a0ed;
+}
+
+.empower__container h1 {
+    margin-bottom: 7px;
+}
+
+.empower__container span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.empower__container>div {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}

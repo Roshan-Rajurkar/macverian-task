@@ -1,0 +1,21 @@
+.copyright__container {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.copyright__container hr {
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.copyright__complete {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.copyright__left {
+    display: flex;
+    gap: 20px;
+}

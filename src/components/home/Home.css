@@ -1,0 +1,109 @@
+.home__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 25px;
+}
+
+.home__left {
+    margin-top: 40px;
+}
+
+.home__left__heading {
+    margin-bottom: 10px;
+    font-size: 3.3rem;
+}
+
+.home__left__para {
+    color: #6a6a6a;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.home__right {
+    width: 100%;
+    background-color: #e9f6ff;
+}
+
+.home__image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.home__left__joins {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.home__left__joins a {
+    text-decoration: none;
+    color: #24A0ED;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.join-btn {
+    padding: 10px 40px;
+}
+
+.home__right__info {
+    padding: 10px;
+}
+
+
+.right__top__heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right__bottom__heading {
+    color: #6a6a6a;
+}
+
+.right__bottom__para {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right__bottom__goals {
+    display: flex;
+    gap: 3px;
+}
+
+.span-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(218, 218, 218);
+}
+
+.active-image {
+    background: #156699;
+}
+
+.right__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.arrow-btn {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #156699;
+}
+
+.arrow-icons:hover {
+    background-color: #156699;
+    border-radius: 50%;
+    color: white;
+}

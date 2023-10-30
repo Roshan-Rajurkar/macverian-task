@@ -1,0 +1,50 @@
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.nav__container nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__logo {
+    color: #24a0ed;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.nav__links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav__links a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav__more {
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #24a0ed;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #24a0ed;
+    border-color: #24a0ed;
+}
